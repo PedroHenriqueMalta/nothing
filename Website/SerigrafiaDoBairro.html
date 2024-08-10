@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Serigrafia Do Bairro</title>
+    <link rel="shortcut icon" type="image/icon" href="assets/images/serigrafia.jpg"/>
+    <h1> Seja bem-vindo à Serigrafia Do Bairro</h1>
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+
+      .img-box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 400px;
+          height: 400px;
+          border-radius: 50%;
+          overflow: hidden;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          background-color: #fff;
+          margin-top: 20px;
+      }
+      .img-box img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+
+      .social-bar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 30px;
+          margin-bottom: 250px;
+          gap: 20px; 
+          flex-wrap: wrap; 
+      }
+      .social-bar a {
+          color: #000;
+          font-size: 2rem;
+          transition: color 0.3s;
+      }
+      .social-bar a:hover {
+          color: #0073e6; 
+      }
+      .social-bar img {
+         width: 50px;
+         height: 50px;
+      }
+
+      .title, .about, .indice {
+          text-align: center;
+          margin-top: 100px;
+          max-width: 800px; 
+          padding: 0 20px;
+      }
+      .about {
+          margin-top: 150px; 
+      }
+      .about h2, .indice h2 {
+         font-size: 2em;
+         font-weight: 700;
+         color: red; 
+      }
+
+      .um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito {
+          padding: 20px;
+          width: 100%;
+          box-sizing: border-box;
+      }
+      .standard-image {
+          width: 100%;
+          max-width: 450px;
+          height: auto;
+          margin-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+          .img-box {
+              width: 300px;
+              height: 300px;
+          }
+
+          .social-bar {
+              flex-direction: row;
+              margin-top: 20px;
+              gap: 15px; 
+          }
+          .social-bar a {
+              font-size: 1.5rem;
+          }
+
+          .title, .about, .indice {
+              margin-top: 30px;
+          }
+
+          .about {
+              margin-top: 50px; 
+          }
+
+          .standard-image {
+              width: 100%;
+              height: auto;
+          }
+
+          .um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito {
+              padding: 10px;
+          }
+
+          .about h2, .indice h2 {
+              font-size: 1.5rem;
+          }
+      }
+
+      @media (max-width: 480px) {
+          .img-box {
+              width: 200px;
+              height: 200px;
+          }
+
+          .social-bar {
+              flex-direction: row;
+              margin-top: 15px;
+              gap: 10px; 
+          }
+          .social-bar a {
+              font-size: 1.2rem;
+          }
+
+          .about {
+              margin-top: 40px; 
+          }
+
+          .about h2, .indice h2 {
+              font-size: 1.2rem;
+          }
+
+          .title, .about, .indice {
+              padding: 0 10px;
+          }
+      }
+    </style>
+</head>
+<body>
+
+    <div class="img-box">
+        <img src="assets/images/serigrafia.jpg" alt="Serigrafia Do Bairro">
+    </div>
+    <h2> Aqui estão as nossas redes sociais </h2>
+    <h2> Incluindo o nosso catálogo </h2>
+    <div class="social-bar">
+       <a href="https://www.instagram.com/serigrafiadobairro/" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/serigrafiadobairrobarreiro/" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.tiktok.com/@serigrafiadobairro" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="#catalogo" class="nav-link smoothscroll" title="Catálogo"><img src="assets/images/catalogo.jpg" alt="Catálogo"></a>
+    </div>
+
+    <div class="title" id="catalogo">
+        <h1> Catálogo De Serviços</h1>
+    </div>
+
+    <div class="about">
+        <h1>Sobre Nós</h1>
+        <h3>A Serigrafia do Bairro oferece serviços especializados de montagem de vinil, estampagens em texteis, etc... garantimos um processo de montagem preciso e de elevada qualidade, tendo sempre como objetivo superar as expectativas dos nossos clientes, seja para montras, viaturas ou espaços interiores, a nossa empresa destaca-se pela atenção ao detalhe, pelo compromisso com a excelência e pela capacidade de transformar ideias em realidade, tornando cada projeto único e impactante.</h3>
+    </div>
+
+    <div class="indice">
+        <h1> Índice </h1>
+        <h2> Impressões e corte de vinil </h2>
+        <h3> Montras, Autocolantes, Sinaléticas, Adesivos Personalizados, etc...</h3>
+        <h2> Impressões de Lona</h2>
+        <h3> Outdoors, Banners, Roll-Ups, etc...</h3>
+        <h2> Pequenos Formatos</h2>
+        <h3> Flyers, Posters, Preçários, Cartões de visita, Pulseiras, etc...</h3>
+        <h2> Supportes Gráficos</h2>
+        <h3> Placas PVC, Dibond, Alveolar, etc...</h3>
+        <h2> Têxteis</h3>
+        <h3> T-shirts, Casacos, Hoodies, Bonés, Sacos/Bolsas, Tapetes de Rato, etc...</h3>
+        <h2> Bandeiras</h2>
+        <h3> Surf, Gota, Retangular, Bandeiras Publicitárias, etc...</h3>
+        <h2> Luminosos</h2>
+        <h3> Caixas de luz</h3>
+        <h2> Outros</h2>
+        <h3> Gravações a laser, Crachás, Canetas, Canecas, etc...</h3>
+    </div>
+    <div class="um">
+        <h1> Impressões e corte de vinil </h1>
+        <h2> Montras </h2>
+        <h3> A utilização de vinil autocolante para montras permite promover os seus serviços, reforçando uma imagem positiva e profissional, sobre o seu negócio.</h3>
+        <img src="assets/images/montras.jpg" class="standard-image">
+        <h2> Autocolantes </h2>
+        <h3> A impressão de autocolantes personalizados é uma forma prática e fácil de promover a sua marca, melhorar o seu projeto individual ou fazer um presente especial.</h3>
+        <img src="assets/images/autocolantes.jpg" class="standard-image">
+        <h2> Adesivos Personalizados </h2>
+        <h3> O vinil autocolante de recorte com impressão é a melhor opção para publicidade interior ou exterior, em montras, veículos e qualquer tipo de suporte publicitário cuja textura seja suave.</h3>
+        <img src="assets/images/adesivos.jpg" class="standard-image">
+        <h2> Sinaléticas </h2>
+        <h3> Diversos sinais de segurança nas categorias de proibição, perigo, obrigatoriedade, informação e emergência.</h3>
+        <img src="assets/images/sinaleticas.jpg" class="standard-image">
+    </div>
+    <div class="dois">
+        <h1> Impressões de Lona </h1>
+        <h2> Outdoors </h2>
+        <h3> Os outdoors publicitários são uma excelente forma de transmitir uma mensagem impactante a um novo público.</h3>
+        <img src="assets/images/outdoors.jpeg" class="standard-image">
+        <h2> Lonas </h2>
+        <h3> A lona publicitária é um meio de comunicação ideal para ações no exterior pela sua resistência e facilidade de montagem.</h3>
+        <img src="assets/images/lonas.jpg" class="standard-image">
+        <h2> Roll-Ups </h3>
+        <h3> O roll up é leve, fácil de transportar e montar e é um dos suportes mais populares em feiras e eventos.</h3>
+        <img src="assets/images/rollup.jpg" class="standard-image">
+    </div>
+    <div class="tres">
+        <h1> Pequenos Formatos </h1>
+        <h2> Flyers </h2>
+        <h3> Com diversos tamanhos, o flyer é um produto mais usado para divulgar a sua marca.</h3>
+        <img src="assets/images/flyers.jpeg" class="standard-image">
+        <h2> Posters </h2>
+        <h3> Cartazes personalizados em vários tamanhos com o seu próprio design.</h3>
+        <img src="assets/images/posters.jpeg" class="standard-image">
+        <h2> Preçários </h2>
+        <h3> Personalizável com qualquer texto, logótipo ou design, é ideal para qualquer empresa que precise de mostrar os seus preços.</h3>
+        <img src="assets/images/preçarios.jpg" class="standard-image">
+        <h2> Cartões de visita </h2>
+        <h3> Os cartões de visita são uma forma fácil de transmitir os seus contatos e criar uma impressão positiva e duradoura.</h3>
+        <img src="assets/images/cartoes.jpg" class="standard-image">
+        <h2> Pulseiras </h2>
+        <h3> Pulseiras para eventos são duráveis e confortáveis, podem ser personalizadas com o nome do evento, logótipos, cores, etc.</h3>
+        <img src="assets/images/pulseiras.jpg" class="standard-image">
+    </div>
+    <div class="quatro">
+        <h1> Supportes Gráficos </h1>
+        <h2> Placas PVC </h2>
+        <h3> Placas versáteis e duradouras com excelente qualidade e resistência, ideias para publicidade interior e exterior.</h3>
+        <img src="assets/images/pvc.jpg" class="standard-image">
+        <h2> Dibond </h2>
+        <h3> É leve, extremamente rígido e forte, é altamente resistente às condições climáticas adversas, o que torna ideal para aplicações no interior e no exterior.</h3>
+        <img src="assets/images/dibond.jpg" class="standard-image">
+        <h2> Alveolar </h2>
+        <h3> Placas ideias para uma comunicação publicitária, leves e adequados para utilização em exteriores.</h3>
+        <img src="assets/images/alveolar.jpg" class="standard-image">
+    </div>
+    <div class="cinco">
+        <h1> Têxteis </h1>
+        <h2> T-Shirts </h2>
+        <h3> A personalização de t-shirts é uma das ações mais benéficas que uma empresa pode realizar para a sua marca.</h3>
+        <img src="assets/images/tshirts.jpg" class="standard-image">
+        <h2> Casacos </h2>
+        <h3> Casacos personalizados são ideias para representar a sua empresa com estilo e conforto.</h3>
+        <img src="assets/images/casacos.jpg" class="standard-image">
+        <h2> Hoodies </h2>
+        <h3> Hoodies personalizadas combinam conforto e gráficos de alta qualidade para destacar a sua marca em qualquer ocasião.</h3>
+        <img src="assets/images/hoodies.jpg" class="standard-image">
+        <h2> Bonés </h2>
+        <h3> Bonés personalizados são um brinde clássico de empresa em feiras e eventos, que geram reconhecimente de marca.</h3>
+        <img src="assets/images/chapeu.jpg" class="standard-image">
+        <h2> Sacos/Bolsas </h2>
+        <h3> Ideal para promover a sua marca em eventos e no dia a dia, com um visual impactante e profissional.</h3>
+        <img src="assets/images/sacos.jpg" class="standard-image">
+        <h2> Tapetes de Rato </h2>
+        <h3> Ideal para manter a sua marca visível no ambiente de trabalho com as suas imagens, textos e muito mais.</h3>
+        <img src="assets/images/tapetederato.jpg" class="standard-image">
+    </div>
+    <div class="seis">
+        <h1> Bandeiras </h1>
+        <h3> Pacotes completos prontos para instalação. Inclui bandeira personalizada feita com tecido 100% poliéster, mastro de alumínio e fibra de vidro e base (selecionável entre diferentes modelos) </h3>
+        <h2> Gota </h2>
+        <h3> Tamanhos disponíveis de S (Altura 245 CM) até XXL (540 CM).</h3>
+        <img src="assets/images/gota.jpg" class="standard-image">
+        <h2> Bandeiras Publicitárias </h2>
+        <h3> Têm uma bainha aberta no topo, reforço no lado esquerdo, presilhas para atar o mastro e ilhós nas extremidades.</h3>
+        <img src="assets/images/" class="standard-image">
+        <h2> Surf </h2>
+        <h3> Tamanhos disponíveis de S (Altura 290 CM) até XXL (600 CM).</h3>
+        <img src="assets/images/surf.jpg" class="standard-image">
+        <h2> Retangular </h2>
+        <h3> Tamanhos disponíveis de S (Altura 220 CM) até M (340 CM).</h3>
+        <img src="assets/images/retangular.jpg" class="standard-image">
+    </div>
+    <div class="sete">
+        <h1> Luminosos </h1>
+        <h2> Caixas de luz </h2>
+        <h3> Transforme o seu espaço com as caixas de luz personalizadas, disponíveis em várias dimensões, espessuras e formatos.</h3>
+        <img src="assets/images/lumi1.jpeg" class="standard-image">
+        <h3> Produzimos e instalamos caixas de luz com gráficos vibrantes que destacam a sua marca ou mensagem impressionantemente.</h3>
+        <img src="assets/images/lumi2.jpeg" class="standard-image">
+    </div>
+    <div class="oito">
+        <h1> Outros </h1>
+        <h2> Gravações a laser </h2>
+        <h3> Oferecemos gravações a laser de alta precisão, perfeitas para personalizar uma grande variedade de materiais. Ideal para branding, presentes corporativos e itens promocionais.</h3>
+        <img src="assets/images/laser.jpg" class="standard-image">
+        <h2> Crachás </h2>
+        <h3> Os crachás personalizados são o produto estrela da personalização de produtos, perfeitos para a identificação de empresas, eventos e campanhas.</h3>
+        <img src="assets/images/crachas.jpg" class="standard-image">
+        <h2> Canetas </h2>
+        <h3> As canetas personalizadas com nome, logo ou outro design são um artigo com grande utilidade diária, quer seja no trabalho, na escola ou em casa.</h3>
+        <img src="assets/images/canetas.jpg" class="standard-image">
+        <h2> Canecas </h2>
+        <h3> Crie canecas personalizadas, com fotos, logótipos ou frases. Ideais para presentes e eventos, fáceis de criar e várias opções de cores.</h3>
+        <img src="assets/images/canecas.jpg" class="standard-image">
+    </div>
+
+    <script>
+    document.querySelectorAll('a.smoothscroll').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+</body>
+</html>
